@@ -3,11 +3,15 @@
 This is a Python-based temperature converter that supports conversion between Celsius, Fahrenheit, and Kelvin, storing history using Docker volumes.
 
 ## Setup Instructions
-1. Build the Docker image:
+1. Clone the Repository:
+   ```
+   https://github.com/sangamsthxa/Temperature-Converter-Application.git
+   ```
+2. Build the Docker image:
    ```
    docker build -t temp-converter .
    ```
-2. Run the container with a mounted volume for persistence:
+3. Run the container with a mounted volume for persistence:
    ```
    docker run -it --rm -v $(pwd)/history.txt:/application/history.txt temp-coverter
    ```
