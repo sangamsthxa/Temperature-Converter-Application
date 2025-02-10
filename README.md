@@ -29,4 +29,8 @@ This is a Python-based temperature converter that supports conversion between Ce
 - **Base Image**: Uses `python:3.9-slim` as the base image.
 - **Volume Mounting**: Mounts `./application` directory for persistent history storage.
 - **CMD Instruction**: Sets `python temperature_converter.py` as the default execution command.
+
+## Screenshots of Application Running
+![Temperature Converter Running](screenshots/temperature_converter.png)
+
 ```
