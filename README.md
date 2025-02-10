@@ -26,7 +26,7 @@ This is a Python-based temperature converter that supports conversion between Ce
 - The conversion history is saved in `/history.txt` on your host machine.
 
 ## Docker Concepts Used
-- **Base Image**: Uses `python:3.9` as the base image.
+- **Base Image**: Uses `python:3.9-slim` as the base image.
 - **Volume Mounting**: Mounts `./application` directory for persistent history storage.
 - **CMD Instruction**: Sets `python temperature_converter.py` as the default execution command.
 ```
