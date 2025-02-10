@@ -27,6 +27,7 @@ This is a Python-based temperature converter that supports conversion between Ce
 
 ## Docker Concepts Used
 - **Base Image**: Uses `python:3.9-slim` as the base image.
+- **Copy Command**: The Dockerfile copies the Python script and history file from the host machine to the container's /  application directory, ensuring the application and its data are available inside the container.
 - **Volume Mounting**: Mounts `./application` directory for persistent history storage.
 - **CMD Instruction**: Sets `python temperature_converter.py` as the default execution command.
 
