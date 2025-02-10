@@ -5,7 +5,7 @@ This is a Python-based temperature converter that supports conversion between Ce
 ## Setup Instructions
 1. Build the Docker image:
    ```
-   docker build -t temperature-converter .
+   docker build -t temp-converter .
    ```
 2. Run the container with a mounted volume for persistence:
    ```
